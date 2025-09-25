@@ -199,7 +199,7 @@ incorrect.](./media/image27.png)
 
 ### Task 4 : Create an Azure DevOps personal access token
 
-1.  Create an Azure DevOps personal access token (PAT). Open a new tab in your browser and navigate to - +++https://portal.azure.com/+++ and sign in with your cloud slice account.
+1.  Create an Azure DevOps personal access token (PAT). Open a new tab in your browser and navigate to +++https://portal.azure.com+++ and sign in with your cloud slice account.
 
    •	Username: +++@lab.CloudPortalCredential(User1).Username+++  
    
@@ -461,6 +461,7 @@ This hands-on walkthrough enabled you to:
 - Run and monitor a trial migration to validate readiness
 
 - Gain confidence in using GEI tooling for future production migrations
+
 
 
 

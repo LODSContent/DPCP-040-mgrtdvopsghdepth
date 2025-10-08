@@ -297,7 +297,7 @@ incorrect.](./media/image38.png)
 
 2.	Replace you@example.com with your GitHub account and Your Name to be replaced with your Github account username in the below commands and run them.
    
-+++git config --global user.email "you@example.com"+++
++++git config --global user.email "your email"+++
 
 +++git config --global user.name "Your Name"+++
 
@@ -461,6 +461,7 @@ This hands-on walkthrough enabled you to:
 - Run and monitor a trial migration to validate readiness
 
 - Gain confidence in using GEI tooling for future production migrations
+
 
 
 

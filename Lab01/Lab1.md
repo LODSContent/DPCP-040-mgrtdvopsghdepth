@@ -87,10 +87,12 @@ incorrect.](./media/image7.png)
   ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image8.png)
 
+7. Click on **People** tab to check the license.
+
   ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image9.png)
 
-7.  Click on 0 roles link under **Membership** column as shown in below
+8.  Click on 0 roles link under **Membership** column as shown in below
     image.
 
   ![A screenshot of a computer AI-generated content may be
@@ -115,11 +117,15 @@ may be incorrect.](./media/image12.png)
 
   +++C:\Program Files\GitHub CLI+++
 
-4.  Press **Win + S** and search for +++Environment Variables+++ and select **Edit the system environment variables**
+4.  Press **Win + S** and search for +++Environment Variables+++ and select **Edit the system environment variables**.
 
   ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image13.png)
 
+   > **Note**: If the search bar is not visible. Right click on the Task bar, click on the **search** and then select **Show search box**.
+
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/ext01.png)
 5.  In the **System Properties** window, click **Environment Variables**.
 
   ![A screenshot of a computer program AI-generated content may be
@@ -232,23 +238,21 @@ incorrect.](./media/image29.png)
   ![A screenshot of a login screen AI-generated content may be
 incorrect.](./media/image30.png)
 
-2.  Keep default values in “We need few more details “ page ,select your
-    country From filed and then click Continue.
-
-  ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image31.png)
-
-3.  Search for +++Azure DevOps+++ and select **Azure DevOps organizations**.
+2.  Search for +++Azure DevOps+++ and select **Azure DevOps organizations**.
 
   ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image32.png)
 
-4.  Click on **My Azure DevOps Organization** hyper link.
+3.  Click on **My Azure DevOps Organization** hyper link.
 
   ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image33.png)
 
-5.  Keep the default values and then click on **Continue**
+4.  Keep default values in “We need few more details “ page ,select your
+    country From filed and then click **Continue**.
+
+  ![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image31.png)
 
 6.  Click on the existing project- **dev-github-project-XXXX**
 
@@ -363,12 +367,9 @@ incorrect.](./media/image53.png)
   ![A screenshot of a computer program AI-generated content may be
 incorrect.](./media/image54.png)
 
-12. **Run below command to push local folder to Azure Devops .(Eg -**
-    <https://dev.azure.com/ADOCourseOrg04/dev-github-proj-53969426/_git/azure-search-openai-migrated).Replace>
-    \< Devops Https url **\> with the https link you copied in previous
-    step -Azure DevOps repos**
+12. **Run below command to push local folder to Azure Devops .(Replace https://dev.azure.com/dev2gthubmigr/dev-github-proj/_git/dev-github-proj with your org link )**
 
-  +++git remote set-url origin <Devops Https url>+++
+ +++git remote set-url origin https://dev.azure.com/dev2gthubmigr/dev-github-proj/_git/dev-github-proj+++
 
   ![A screen shot of a computer screen AI-generated content may beb incorrect.](./media/image55.png)
 
@@ -525,6 +526,9 @@ This hands-on walkthrough enabled you to:
 - Run and monitor a trial migration to validate readiness
 
 - Gain confidence in using GEI tooling for future production migrations
+
+
+
 
 
 

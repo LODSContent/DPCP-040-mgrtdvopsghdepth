@@ -1,4 +1,4 @@
-# Lab 2 - Post-Migration GitHub Repository Configuration Using CLI and Web UI
+# Lab 02 - Post-Migration GitHub Repository Configuration Using CLI and Web UI
 
 **Objective**:
 
@@ -158,3 +158,4 @@ data-science, migrated-repo, azure, gei, etc.).
 
 - Ensured the repository is ready for collaboration and compliant with
   common DevOps standards
+

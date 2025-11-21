@@ -109,7 +109,7 @@ Ensure the following before you start:
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/mgrtdvopsghdepth/refs/heads/Cloud-slice/Lab01/media/image13.png)
 
-   > **Note**: If the search bar is not visible. Right click on the Task bar, click on the **search** and then select **Show search box**.
+    >**Note**: If the search bar is not visible. Right click on the Task bar, click on the **search** and then select **Show search box**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/mgrtdvopsghdepth/refs/heads/Cloud-slice/Lab01/media/ext01.png)
     
@@ -203,7 +203,7 @@ Ensure the following before you start:
 
     - Username: +++@lab.CloudPortalCredential(User1).Username+++
 
-    - Password: +++@lab.CloudPortalCredential(User1).Password+++
+    - Temporary Access Pass (TAP): +++@lab.CloudPortalCredential(User1).AccessToken+++
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/mgrtdvopsghdepth/refs/heads/Cloud-slice/Lab01/media/image29.png)
 
@@ -217,7 +217,7 @@ Ensure the following before you start:
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/mgrtdvopsghdepth/refs/heads/Cloud-slice/Lab01/media/image33.png)
 
-4.  Keep default values in "We need few more details " page ,select your
+4.  Keep default values in "We need few more details" page ,select your
     country From filed and then click **Continue**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/mgrtdvopsghdepth/refs/heads/Cloud-slice/Lab01/media/image31.png)
@@ -325,7 +325,7 @@ Ensure the following before you start:
 
     ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/mgrtdvopsghdepth/refs/heads/Cloud-slice/Lab01/media/image54.png)
 
-12. **Run below command to push local folder to Azure Devops .(Replace https://dev.azure.com/dev2gthubmigr/dev-github-proj/_git/dev-github-proj with your org link )**
+12. Run below command to push local folder to Azure Devops. (Replace https://dev.azure.com/dev2gthubmigr/dev-github-proj/_git/dev-github-proj with your org link )
 
     +++git remote set-url origin https://dev.azure.com/dev2gthubmigr/dev-github-proj/_git/dev-github-proj+++
 
@@ -337,8 +337,8 @@ Ensure the following before you start:
 
     ![A computer screen with text AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/mgrtdvopsghdepth/refs/heads/Cloud-slice/Lab01/media/image56.png)
 
-14. Run below command to push the repo to DevOps . if it prompts to sign
-    in ,sign in with your DevOps account.
+14. Run below command to push the repo to DevOps. if it prompts to sign
+    in, sign in with your DevOps account.
 
     +++git push -u origin --all+++
 
@@ -368,7 +368,7 @@ Ensure the following before you start:
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/mgrtdvopsghdepth/refs/heads/Cloud-slice/Lab01/media/image60.png)
 
 3.  Click on **Personal Access Tokens-\>Tokens(classic)-\> Generate new
-    token(Classic**) . Sign in if it prompts
+    token(Classic**). Sign in if it prompts
 
     ![](https://raw.githubusercontent.com/technofocus-pte/mgrtdvopsghdepth/refs/heads/Cloud-slice/Lab01/media/image61.png)
 
@@ -421,8 +421,8 @@ Ensure the following before you start:
     and ready to migrate — but **no actual repo, code, or history is
     transferred**.
 
-5.  Run below dry-run command to migrate repos to GEC**  
-    (Note: You can check repo in your ADO-\>Org-\> Project-\> Repo )**
+5.  Run below dry-run command to migrate repos to GEC  
+    (Note: You can check repo in your ADO-\>Org-\> Project-\> Repo)
     and note down Migration id to a notepad
 
     +++gh ado2gh migrate-repo --ado-org $ADO_ORG --ado-team-project $ADO_PROJECT  --ado-repo dev-github-proj --github-org $GEC_ORG --github-repo dev-github-proj-migrated-trial --ado-pat $AZURE_DEVOPS_PAT --github-pat $GH_PAT --queue-only+++
@@ -474,6 +474,7 @@ This hands-on walkthrough enabled you to:
 - Run and monitor a trial migration to validate readiness
 
 - Gain confidence in using GEI tooling for future production migrations
+
 
 
 

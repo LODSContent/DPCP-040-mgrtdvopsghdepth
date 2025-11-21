@@ -1,4 +1,4 @@
-# Lab 3 – Monitoring GitHub Repository Activity and Security Using Audit Logs & Insights
+# Lab 03 – Monitoring GitHub Repository Activity and Security Using Audit Logs & Insights
 
 **Objective**
 
@@ -163,5 +163,6 @@ By completing this lab, you:
 
 - Strengthened your GitHub observability, transparency, and compliance
   skills
+
 
 

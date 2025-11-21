@@ -40,21 +40,21 @@ are submitted for the repository using the dependency submission API
 Dependency graph is enabled by default for all new public repositories.
 
 1.  Open a browser and navigate to -
-    +++https://github.com/skills/secure-repository-supply-chain.git+++. Sign
+    <https://github.com/skills/secure-repository-supply-chain.git>. Sign
     in with your GitHub account.
 
 2.  Click on **COPY EXERCISE** .
 
-    ![](https://raw.githubusercontent.com/LODSContent/DPCP-040-mgrtdvopsghdepth/main/Lab11/media/image1.png)
+![](./media/image1.png)
 
 3.  Keep default values and then click on **Create repository.**
 
-    ![](https://raw.githubusercontent.com/LODSContent/DPCP-040-mgrtdvopsghdepth/main/Lab11/media/image2.png)
+![](./media/image2.png)
 
 4.  Navigate to the **Settings** tab.Click **Advanced
     Security**.Verify **Dependency Graph** is **Enabled**
 
-    ![](https://raw.githubusercontent.com/LODSContent/DPCP-040-mgrtdvopsghdepth/main/Lab11/media/image3.png)
+![](./media/image3.png)
 
 ### Task 2: Add a new dependency and view your dependency graph
 
@@ -63,19 +63,25 @@ Dependency graph is enabled by default for all new public repositories.
 
 2.  Commit the following content on the main branch to
     the **package-lock.json** file as the last item on
-    the dependencies map (*after the third to last bracket } and before
-    the last two brackets*)
+    the dependencies map *(after the third to last bracket } and before
+    the last two brackets)*
 
-    >[!note]**Note**: You can edit and commit the file on github.com directly or
-    >hit the . key to open the lightweight editor to edit and commit changes.
+🪧 **Note:** You can edit and commit the file on github.com directly or
+hit the . key to open the lightweight editor to edit and commit changes.
 
-    ```
-    "follow-redirects": {
-        "version": "1.14.1",
-        "resolved": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.1.tgz",
-        "integrity": "sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg=="
-    }
-	```
+,
+
+"follow-redirects": {
+
+"version": "1.14.1",
+
+"resolved":
+"https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.1.tgz",
+
+"integrity":
+"sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg=="
+
+}
 
 3.  Navigate to the **Insights** tab.
 
@@ -85,8 +91,8 @@ Dependency graph is enabled by default for all new public repositories.
 
 6.  Search for follow-redirects and review the new dependency you just
     added.  
-        
-	![Screen Shot showing the "follow-redirects" dependency.](https://raw.githubusercontent.com/LODSContent/DPCP-040-mgrtdvopsghdepth/main/Lab11/media/image4.png)
+    ![Screen Shot showing the "follow-redirects"
+    dependency.](./media/image4.png)
 
 7.  With the new dependency added, Mona should already be busy checking
     your work. Give her a moment and keep watch in the comments. You

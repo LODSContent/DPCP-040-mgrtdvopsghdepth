@@ -1,4 +1,4 @@
-# Lab 09 -Testing & Code Quality in GitHub After Azure DevOps Migration
+# Lab 09 - Testing & Code Quality in GitHub After Azure DevOps Migration
 
 ## Exercise 1 - Set up your Azure DevOps environment
 
@@ -197,7 +197,7 @@ To do this, you:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/mgrtdvopsghdepth/refs/heads/Cloud-slice/Lab09/media/image35.png)
 
-### Task 4: Create GitHub personal access token (You can re-use the same PAT created in Day 1 else follow this task to create new PAT)
+### Task 5: Create GitHub personal access token (You can re-use the same PAT created in Day 1 else follow this task to create new PAT)
 
 1.  Open GitHub in new browser tab and sign in with your GitHub account.
 
@@ -226,7 +226,7 @@ To do this, you:
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/mgrtdvopsghdepth/refs/heads/Cloud-slice/Lab09/media/image41.png)
 
-### Task 5: Fetch the branch from GitHub
+### Task 6: Fetch the branch from GitHub
 
 1.  Open Visual Studio Code, go to the terminal window.
 
@@ -609,7 +609,7 @@ the previous modules and an Azure Pipelines configuration to start with.
     >
     >A TRX file is an XML document that contains the results of a test run.It's a popular format for test results because Visual Studio and other tools can help you visualize the results.
     >
-    ![A computer screen with text on it AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/mgrtdvopsghdepth/refs/heads/Cloud-slice/Lab09/media/image94.png)
+    >![A computer screen with text on it AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/mgrtdvopsghdepth/refs/heads/Cloud-slice/Lab09/media/image94.png)
     >
     >Later, you'll see how Azure Pipelines can help you visualize and track your test results as they run through the pipeline.
 
@@ -1161,5 +1161,6 @@ To delete the project:
     select **Delete** a second time.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/mgrtdvopsghdepth/refs/heads/Cloud-slice/Lab09/media/image149.png)
+
 
 
